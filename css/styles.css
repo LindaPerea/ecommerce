@@ -1,0 +1,216 @@
+:root {
+   --main-color: #34b0be;
+   --secondary-color: #ff4f6f;
+   --alt-color: #0a0c49;
+   --background-color: #FFFFFF;
+ }
+
+
+body{
+   box-sizing: border-box;
+   width: 90%;
+   height: 100vh;
+   font-family: 'Meera Inimai', sans-serif;
+   box-sizing: border-box;
+   margin: 20px;
+   padding: 20px;
+   align-items: center;
+}
+
+@media (max-width: 480px) {
+
+
+}
+
+.grid {
+   display: flex; 
+   justify-content: center;
+   width: 100%;
+   height: 100vh;
+}
+
+@media (max-width: 480px) {
+
+
+}
+
+.left {
+   width: 100%;
+   background-color: antiquewhite;
+   display: grid;
+}
+
+h1 {
+   font-size: 50px;
+}
+.centrarTitulo {
+   text-align: center;
+   
+}
+
+.rigth {
+   width: 80%;
+   display: grid;
+   background-image: url("../assets/ohm.png");
+   background-size: cover;
+   background-color: rgb(104, 69, 101);
+}
+
+.alignNav {
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   padding: 30px;
+   font-size: 20px;
+}
+
+.fa-l {
+   font-size: 50px;
+   color: blueviolet;
+   padding: 20px;
+}
+
+.homeRed {
+   color: red;
+   padding-right: 50px;
+}
+
+.products {
+   color: var(--alt-color);
+}
+
+.misProductos {
+   width: 100%;
+   display: flex;
+   
+}
+
+.tarjeta {
+   border: solid 2px;
+   padding: 5px;
+}
+
+.cuerpoTarjeta {
+   text-align: center;
+}
+
+.descripcion {
+   font-size: 24px;
+}
+
+.styled {
+   background-color: #ff4f6f;
+   width: 200px;
+   line-height: 2.5rem;
+   font-size: 20px;
+   
+}
+.shop {
+   padding-top: 30px;
+   text-align: right;
+   padding-right: 50px;
+   font-size: 3rem;
+   color: antiquewhite;
+}
+
+/* @media width() {
+   aqui poner que la barra de menu responsivo desaparezca
+} */
+
+/* .AlignItems {
+   margin-left: 30px;
+} */
+
+hr {
+   padding-top: 5px;
+   height: 15px;
+   background-color: red;
+   width: 50%;
+}
+
+.containers {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.box {
+   /* border-radius: 3px;
+   border-color: 2px solid #ff4f6f; */
+   border: solid 2px;
+
+}
+
+.aritcle-content {
+   display: flex;
+   overflow: var(--alt-color);
+}
+
+.container {
+   margin-top: 20px;
+   display: grid;
+   grid-template-columns: repeat(10, 1fr);
+   row-gap: 20px;
+ }
+ 
+ .square {
+   width: 100px;
+   height: 50px;
+   border-radius: 10px;
+ }
+
+ /* el square es mi viewProducts */
+ /* .viewProducts {
+   width: 200px ;
+   height: 100px;
+ } */
+ .red {
+   background-color: red;
+ }
+ 
+ .blue {
+   background-color: blue;
+ }
+
+ .tarjetasContenedor {
+   display: flex;
+ }
+
+ button {
+   width: 200px;
+   line-height: 2.5rem;
+   background-color: var(--main-color);
+ }
+
+ .cuerpo__tarjeta {
+   text-align: center;
+   color: var(--secondary-color);
+ }
+
+ .probandoElCarrito {
+   margin-top: 100px;
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   row-gap: 50px;
+ }
+
+ .imagen__Tarjeta {
+   width: 10px;
+ }
+
+ .container {
+   width: 100%;
+   align-items: center;
+ }
+
+ 
+.template-card {
+   display: flex;
+   justify-content: space-between;
+}
+
+.box {
+   width: 100px;
+   height: 100px;
+   background-color: pink;
+}
